@@ -44,3 +44,11 @@ The supplied engineer portrait, company banner/logo and construction photographs
 - Added all 29 individual photographs extracted from the newly supplied WhatsApp image pack. Each paired-photo page was split into two separate gallery images.
 - Gallery now displays the complete photo collection in a responsive grid with click-to-open lightbox.
 - New portfolio images are stored in `public/images/portfolio/` as optimized WebP files.
+
+
+## Latest gallery update
+- Owner portrait replaced with the newly supplied construction-office portrait.
+- Project gallery rebuilt with 28 separately cropped original photographs from the supplied photo-register sheets.
+- Original photo captions are displayed under each image and in the lightbox.
+- Gallery category filters are included.
+- Desktop and mobile layouts remain responsive.
