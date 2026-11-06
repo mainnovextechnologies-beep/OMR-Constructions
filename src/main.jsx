@@ -2,11 +2,6 @@ import React, {useState} from 'react';
 import {createRoot} from 'react-dom/client';
 import {motion, AnimatePresence} from 'framer-motion';
 import {Menu, X, ArrowUpRight, ArrowRight, Phone, MessageCircle, MapPin, Mail, HardHat, Building2, Ruler, DraftingCompass, ShieldCheck, Clock3, CheckCircle2, ChevronLeft, ChevronRight, Send, Instagram, Facebook, Linkedin} from 'lucide-react';
-import {
-  Building2,
-  Zap,
-  Wind
-} from 'lucide-react';
 import './style.css';
 
 const PHONE='9100104476';
@@ -43,22 +38,13 @@ const photos=[
  {src:'/images/portfolio/project-27.webp',title:'Photo 9 · Plot-A Office Room Toilet',type:'Accommodation Building'},
  {src:'/images/portfolio/project-28.webp',title:'Photo 10 · Sectional Water Tank @ Plot-A',type:'Roof & Utility'}
 ];
-const services = [
-  {
-    icon: Building2,
-    title: 'Civil Works',
-    desc: 'Complete civil construction solutions, including building construction, foundations, structural works, RCC works, masonry and finishing.'
-  },
-  {
-    icon: Zap,
-    title: 'Electrical & Plumbing',
-    desc: 'Reliable electrical and plumbing solutions, including wiring, lighting, power installations, water supply, drainage and sanitary systems.'
-  },
-  {
-    icon: Wind,
-    title: 'HVAC Works',
-    desc: 'Professional heating, ventilation and air conditioning solutions, including HVAC installation, ducting, ventilation and climate control systems.'
-  }
+const services=[
+ {icon:Building2,title:'Building Construction',desc:'Civil construction support for residential and commercial building projects, from site preparation through execution.'},
+ {icon:DraftingCompass,title:'Civil Engineering Works',desc:'Practical engineering coordination, site execution and construction-stage technical support.'},
+ {icon:Ruler,title:'Planning & Estimation',desc:'Project planning, quantity estimation and cost-conscious construction guidance.'},
+ {icon:HardHat,title:'M.E.P. Works',desc:'Mechanical, electrical and plumbing works coordination for building projects.'},
+ {icon:ShieldCheck,title:'Site Supervision',desc:'On-site monitoring, workmanship checks and coordination through key construction stages.'},
+ {icon:Building2,title:'Structural & RCC Works',desc:'Construction execution support for foundations, columns, beams, slabs and related RCC works.'}
 ];
 function App(){
  const [menu,setMenu]=useState(false),[active,setActive]=useState('All'),[lightbox,setLightbox]=useState(null),[sent,setSent]=useState(false);
