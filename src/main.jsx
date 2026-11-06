@@ -45,18 +45,18 @@ const photos=[
 const services = [
   {
     icon: Building2,
-    title: 'Civil Works',
-    desc: 'Complete civil construction solutions, including building construction, foundations, structural works, RCC works, masonry and finishing.'
+    title: 'CIVIL WORKS',
+    desc: 'Civil construction, building works, structural works, RCC works and complete construction execution.'
   },
   {
     icon: Zap,
-    title: 'Electrical & Plumbing',
-    desc: 'Reliable electrical and plumbing solutions, including wiring, lighting, power installations, water supply, drainage and sanitary systems.'
+    title: 'ELECTRICAL & PLUMBING',
+    desc: 'Electrical installations, wiring, lighting, plumbing systems, water supply and drainage works.'
   },
   {
     icon: Wind,
-    title: 'HVAC Works',
-    desc: 'Professional heating, ventilation and air conditioning solutions, including HVAC installation, ducting, ventilation and climate control systems.'
+    title: 'HVAC WORKS',
+    desc: 'Heating, ventilation and air conditioning installations, ducting and climate control solutions.'
   }
 ];
 function App(){
